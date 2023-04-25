@@ -1,0 +1,71 @@
+@font-face {
+  font-family: vazir-m;
+  src: url(./font/Vazirmatn-FD-Medium.ttf);
+  font-weight: 500;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "vazir-m", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+}
+.input-box {
+  background-color: #fff;
+  width: 330px;
+  min-height: 110px;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+form {
+  width: 100%;
+}
+label {
+  color: #1e232c;
+}
+#password {
+  font-family: inherit;
+  width: 100%;
+  height: 46px;
+  padding: 20px;
+  outline: 0;
+  direction: rtl;
+  border: 2px solid #f5d0fe;
+  border-radius: 5px;
+  color: #8391a1;
+}
+#password:hover {
+  border: 2px solid #f0abfc;
+}
+#password:focus {
+  border: 2px solid #e879f9;
+}
+.password-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 9px;
+}
+.input-wrapper {
+  width: 100%;
+  position: relative;
+}
+.password-toggle-icon {
+  position: absolute;
+  top: 14px;
+  left: 9px;
+  cursor: pointer;
+}
+.password-toggle-icon i {
+  font-size: 18px;
+  color: #6a707c;
+}
+.password-toggle-icon i:hover {
+  color: #3c3f45;
+}
